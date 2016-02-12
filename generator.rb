@@ -36,6 +36,10 @@ def elim_maps
 	end
 end
 
+def dots
+	puts '...................'
+end
+
 # User Prompt:
 puts 'How many people are playing?'
 @number_of_players = gets.chomp.to_i
@@ -56,22 +60,25 @@ puts 'Here is your order:'
 puts @users_array.shuffle!
 puts
 sleep 1.25
+
 puts 'Let\'s look at our potential maps...'
 sleep 0.5
-puts '...................'
+dots
 puts 'Maps List:'
 puts $maps
-puts '...................'
+dots
 puts
+
 puts 'Any maps you don\'t like? (y or n)'
 answer = gets.chomp
 puts
 terrain(answer)
 puts
-puts '...................'
+dots
+sleep 0.5
 puts 'Revised Maps List:'
 puts $maps
-puts '...................'
+dots
 puts
 @random_map = $maps.sample
 puts 'You drew ' + @random_map + '!'
