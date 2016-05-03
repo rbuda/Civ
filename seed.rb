@@ -1,44 +1,135 @@
+Civilization.create = (name: 'America', leader: 'Ahmad al-Mansur', attribute: 'Receives +3 Gold, Golden Age, & Culture for each Trade Route to or from a different Civ or City-State.  Bonuses scale with Era. Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.')
+Civilization.create = (name: 'Greece', leader: 'Alexander', attribute: 'City-State influence degrades at half and recovers at twice the normal rate. Each City-State alliance boosts the Combat Strength of owned and allied Units by +4%(up to +20% total).')
+Civilization.create = (name: 'Assyria', leader: 'Ashurbanipal', attribute: 'Conquer a city, gain either a Technology already known by the owner or, if impossible, a large Science boost. All Great Works produce +2 Science.')
+Civilization.create = (name: 'Songhai', leader: 'Songhai', attribute: 'Triple Gold from pillaging Encampments and Cities. Land units gain the War Canoe, Amphibious promotions, and move faster along Rivers. Rivers can create City Connections.')
+Civilization.create = (name: 'Huns', leader: 'Attila', attribute: 'Mounted melee and Armor units deal more flanking damage and capture units. Defeated Barbarians in Encampments join you. When cities gain Grassland or Plains tiles naturally, adjacent unowned tiles of the same type are also claimed.')
+Civilization.create = (name: 'Rome', leader: 'Augustus Caesar', attribute: 'When a City is conquered, it retains all valid Buildings & immediately acquire additional territory around the City. +15% Production towards Buildings present in Capital.')
+Civilization.create = (name: 'Germany', leader: 'Bismark', attribute: 'Receive +3 Golden Age Points & +3 Culture in Capital for every City-State allied with. Bonus scales with Era. For every 2 City-State alliances, receive 1 additional Delegate in the World Congress.')
+Civilization.create = (name: 'Celts', leader: 'Boudicca', attribute: 'Has a unique set of Pantheon Beliefs. Cities with your Pantheon or founded Religion generate nor recieve foreign Religious Pressure. +3 Faith in owned Cities where your Pantheon (or Religion, if a Founder) is the majority.')
+Civilization.create = (name: 'Poland', leader: 'Casimir III', attribute: 'Recieve a free Social Policy when you advance to the next era.')
+Civilization.create = (name: 'Russia', leader: 'Catherine', attribute: 'All Strategic Resources provide +1 Science and double their normal quantity. When you purchase a tile with Gold, recieve +20 Science. Bonus scales with Era.')
+Civilization.create = (name: 'Persia', leader: 'Darius I', attribute: 'Golden Ages last 50% longer, and 10% of your Tourism output converts into Golden Age Points every turn. During a Golden Age, units receive +1 Movement and a +15% Combat Strength bonus.')
+Civilization.create = (name: 'Carthage', leader: 'Dido', attribute: 'Cities produce a large sum of Gold when founded. Bonus scales with Era. All owned coastal Cities recieve a free Harbor.')
+Civilization.create = (name: 'England', leader: 'Elizabeth', attribute: '+2 Movement for all naval and embarked units. Naval unit Gold maintenance reduced by 25%. Recieve one or more additional Spies based on the number of City-States.')
+Civilization.create = (name: 'Venice', leader: 'Enrico Dandolo', attribute: 'Cannot gain settlers nor annex cities. Double the normal number of trade routes available. A Merchant of Venice appears after researching Sailing. May purchase in puppeted cities.')
+Civilization.create = (name: 'Indonesia', leader: 'Gajah Mada', attribute: 'Every time you found a city, one of three unique Luxuries will appear next to or under the City. No Unhappiness from Isolation.')
+Civilization.create = (name: 'India', leader: 'Gandhi', attribute: 'Starts with a Pantheon. Each follower of your majority or founded Religion in a City increases Religious Pressure and Food Growth in that City. Cannot build Missionaries.')
+Civilization.create = (name: 'Mongolia', leader: 'Genghis Khan', attribute: 'Mounted Ranged units gain +2 Movement and ignore Zone of Control. Forcefully annex City-States instead of extracting Heavy Tribute, and recieve Golden Age Points when you conquer or annex a City-State.')
+Civilization.create = (name: 'Sweden', leader: 'Gustavus Adolphus', attribute: 'Land melee units receive +10 Combat Strength when Attacking, and Siege Units gain +1 Movement. If a Great General is born while at war, all Military Units are healed and recieve +10% XP')
+Civilization.create = (name: 'Ethiopia', leader: 'Haile Selassie', attribute: 'When you complete a Policy Branch, adopt a Belief, or choose your first Ideology, receive a free technology.')
+Civilization.create = (name: 'Denmark', leader: 'Harald Bluetooth', attribute: 'Embarked units have +1 Movement and pay just 1 movement point to move from sea to land. All Melee units pillage without movement cost and plunder Gold when they assult a city.')
+Civilization.create = (name: 'Arabia', leader: 'Harun al-Rashid', attribute: 'When you complete a Historic Event, your Capital gains +1 Science and +1 Culture, 20% towards the progress of a random Great Person. Tourism from Historic Events increased by 20%.')
+Civilization.create = (name: 'Iroquois', leader: 'Hiawatha', attribute: 'Units move through Forest and Jungle in as if it is Road, and can be used to establish City Connections. Land military units start with the Woodsman promotion.')
+Civilization.create = (name: 'Spain', leader: 'Isabella', attribute: 'Religions other than your founded or majority Religion cannot spread to owned Cities or allied City-States. When you gain a new City after your Capital, its Citizens are converted to your Religion and you receive Faith.')
+Civilization.create = (name: 'Polynesia', leader: 'Kamehameha', attribute: '+1 Sight when embarked. Can embark and move over Oceans immediately. +50% tile yields from Natural Wonders, and +10% Combat Strength bonus if within 4 tiles of an owned Moai or Natural Wonder.')
+Civilization.create = (name: 'Portugal', leader: 'Maria I', attribute: 'Resource diversity doubles Gold from Trade Routes. When your Trade Units move, receive +2 Science, Great Admiral Points(for Cargo Ships), and Great General Points(for Caravans), scaling with Era.')
+Civilization.create = (name: 'Austria', leader: 'Maria Theresa', attribute: 'Use Gold to arrange Marriages to City-States. While at peace with the City-State, Marriages eliminate influence decay, grant +1 Delegate to World Congress, and +10% Great Person Rate in your Capital.')
+Civilization.create = (name: 'Aztecs', leader: 'Montezuma', attribute: 'Receive Gold and Faith for each enemy unit you kill. When you complete a favorable Peace Treaty, a Golden Age begins.')
+Civilization.create = (name: 'France', leader: 'Napoleon', attribute: 'Capital theming bonuses doubled. When you conquer an enemy City, plunder Great Works from their other Cities, or, if unable to plunder, gain a temporary Culture boost.')
+Civilization.create = (name: 'Babylon', leader: 'Nebuchadnezzar II', attribute: 'Receive a free Great Scientist when you discover Writing. Earn Great Scientists 50% faster. Gold investments in Buildings reduce their Production cost by and additional 15%.')
+Civilization.create = (name: 'Japan', leader: 'Oda Nobunaga', attribute: 'The Combat Strength of your units increases as they take damage. +2 Culture and +1 Food from Fishing Boats and Atolls. Melee Naval Units can construct Fishing Boats.')
+Civilization.create = (name: 'Maya', leader: 'Pacal', attribute: 'After researching Mathematics, receive a bonus Great Person at the end of every Maya Long Count cycle (every 394 years). Each bonus person can only be choosen once.')
+Civilization.create = (name: 'Inca', leader: 'Pachacuti', attribute: 'Units ignore terrain costs when on Hills and may cross Mountains. Cities, Roads, & Railroads may be built on Mountains.')
+Civilization.create = (name: 'Brazil', leader: 'Pedro II', attribute: 'During a Golden Age, Tourism output increases by +33%, all Great People are earned 50% more quickly, and 33% of your Capital\'s Culture is added to your Tourism.')
+Civilization.create = (name: 'Shoshone', leader: 'Pocatello', attribute: 'Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory.')
+Civilization.create = (name: 'Egypt', leader: 'Ramesses II', attribute: '+20% Production towards Wonder construction. Artifacts gain +2 Science, Faith and Culture, and Landmarks gain +4 Gold, Golden Age Points, & Tourism.')
+Civilization.create = (name: 'Siam', leader: 'Ramkhamhaeng', attribute: 'Yields from friendly and allied City-States increased by 75%. The Combat Strength of Allied City-State Capitals is increased by +25%.')
+Civilization.create = (name: 'Korea', leader: 'Sejong', attribute: '+1 Science from all Specialists and +2 Science from Great Person tile improvements. Recieve a tech boost each time a scientific building/Wonder is built in your Capital. Bonus scaled with Era.')
+Civilization.create = (name: 'Zulus', leader: 'Shaka', attribute: 'Melee units cost 50% less maintenance, units require 25% less experience to earn their next promotion, and your Great General combat bonus is increased by 10%.')
+Civilization.create = (name: 'Ottomans', leader: 'Suleiman', attribute: 'Completing an International Trade Route grants +100 Science, Production, and Food to the origin City. Bonuses scale with era. Recieve a free Caravansary in every city.')
+Civilization.create = (name: 'Byzantium', leader: 'Theodora', attribute: 'Is always eligible to found a Religion, and receives an additional Belief when founding a Religion. Is allowed to choose from Beliefs already in other Religions.')
+Civilization.create = (name: 'America', leader: 'Washington', attribute: 'All land military units have +1 sight. 50% discount when purchasing tiles. Can purchase tiles already owned by other Civilizations, though at a much higher Gold cost than normal.')
+Civilization.create = (name: 'Netherlands', leader: 'William', attribute: '+4 Culture for each different Luxury Resource imported from other Civilizations and City-States, +4 Gold for each different Luxury Resource you export to other Civilizations. Bonuses scale with Era.')
+Civilization.create = (name: 'China', leader: 'Wu Zetian', attribute: '+50% Food Growth in Cities during Golden Ages and "We Love the Empress Day". Great People grant Golden Age Points and trigger 10 turns of "We Love the Empress Day" when born.')
 
-Civ.new = [ 'America',
-            'Arabia',
-            'Assyria',
-            'Austria',
-            'Aztec',
-            'Babylon',
-            'Brazil',
-            'Byzantium',
-            'Carthage',
-            'Celts',
-            'China',
-            'Denmark',
-            'Egypt',
-            'England',
-            'Ethiopia',
-            'France',
-            'Germany',
-            'Greece',
-            'Huns',
-            'Inca',
-            'India',
-            'Indonesia',
-            'Iroquois',
-            'Japan',
-            'Korea',
-            'Maya',
-            'Mongolia',
-            'Morocco',
-            'Netherlands',
-            'Ottomans',
-            'Persia',
-            'Poland',
-            'Polynesia',
-            'Portugal',
-            'Rome',
-            'Russia',
-            'Shoeshone',
-            'Siam',
-            'Songhai',
-            'Spain',
-            'Sweden',
-            'Venice',
-            'Zulu']
+
+
+Unit.find_or_create_by(civilization_id: 1, name: 'Berber Cavalry', replaces: 'Calvary', requirements: '-1 Horse', movement: '4', ranged_combat: '45', prerequisite_techs: 'Calvary', combat: '30', description: 'Combat bonus fighting in own territory. Ignores terrain penalties.')
+Unit.find_or_create_by(civilization_id: 2, name: 'Hoplite', replaces: 'Spearman', requirements: nil, movement: '2', combat: '12', prerequisite_techs: 'Bronze Working',description: 'Specializes in defeating mounted units. Produces Great Generals quickly. Starts with Discipline promotion.')
+Unit.find_or_create_by(civilization_id: 3, name: 'Siege Tower', replaces: nil, requirements: nil, movement: '4', prerequisite_techs: 'Military Theory',combat: 'Nearby units gain +40% Combat Strength versus cities or 20% if 2 tiles from city.' description: 'Can only have 2 active. Starts with Medic I and Extra Sight.' )
+Unit.find_or_create_by(civilization_id: 4, name: 'Mandekalu Calvary', replaces: 'Knight', requirements: '-1 Horse', movement: '4', prerequisite_techs: 'Chivarly',combat: '25', description: 'Weak to Pikeman. Not penalized attacking cities.')
+Unit.find_or_create_by(civilization_id: 5, prerequisite_techs: 'Mathematics',name: 'Horse Archer', replaces: 'Skirmisher', movement: '4', combat: '12', ranged_combat: '14', description: 'Hit & run attacks. Accuracy I')
+Unit.find_or_create_by(civilization_id: 6, name: 'Legion', replaces: 'Swordsman', movement: '2', combat: '17', requirements: '-1 Iron', prerequisite_techs: 'Iron Working', description: 'Strong front-line era Unit. Cover I promotion for free. Can construct roads and forts.')
+Unit.find_or_create_by(civilization_id: 7, name: 'Panzer', replaces: 'Tank' , movement: '6', combat: '70', requirements: '-1 Oil', prerequisite_techs: 'Ballistics', description: 'Fast & powerful industrial unit. Penalized attacking Cities and on Defense. Most effective in open ground.')
+Unit.find_or_create_by(civilization_id: 8, name: 'Pictish Warrior', replaces: 'Spearman', movement: '2', combat: '12', prerequisite_techs: 'Mining', description: 'Double movement & +25% defense in Hills, Snow, & Tundra. Can pillage enemy improvements at no additional movement cost, and earns 200% of opponenets strength as Faith for kills.')
+Unit.find_or_create_by(civilization_id: 9, name: 'Winged Hussar', replaces: 'Lancer', movement: '5', combat: '37', requirements: '-1 Horse', prerequisite_techs: 'Metallurgy', description: 'Specializes in defeating enemy mounted units. Forces units to retreat when it inflicts more damage than it recieves.')
+Unit.find_or_create_by(civilization_id: 10, name: 'Cossack', replaces: 'Cavalry', movement: '4', combat: '35', ranged_combat: '50',  requirements: '-1 Horse', prerequisite_techs: 'Military Science',description: 'Capable of fighting toe-to-toe with infantry units. Bonus against wounded units. Penalized attacking cities. Ranged combat only.')
+Unit.find_or_create_by(civilization_id: 11, name: 'Immortal', replaces: 'Spearman', movement: '2', combat: '12', prerequisite_techs: 'Bronze Working', description: 'Specializes in defeating mounted units. Higher combat strength while defending. Heals quicker than spearman.')
+Unit.find_or_create_by(civilization_id: 12, name: 'Quinquereme', replaces: 'Trireme', movement: '4', combat: '15', prerequisite_techs: 'Fishing', description: 'Available earlier than Trireme. Reconnaissance promotion for free - allowing it to gain experience from exploration.')
+Unit.find_or_create_by(civilization_id: 13, name: 'Ship of the Line', replaces: 'Frigate', movement: '4', combat: '20', ranged_combat: '30 x 2', requirements: '-1 Iron', prerequisite_techs: 'Navigation', description: 'Can attack twice, weaker than unit it replaces, extra sight(1).')
+Unit.find_or_create_by(civilization_id: 14, name: 'Merchant of Venice', replaces: 'Great Merchant', movement: '2', description: 'Can purchase City-States outright(puppeting) and conduct diplomatic missions.')
+Unit.find_or_create_by(civilization_id: 15, name: 'Kris Swordsman', replaces: 'Swordsman', movement: '2', combat: '15', requirements: '-1 Iron', prerequisite_techs: 'Iron Working', description: 'Mystical weapon whose abilities will be discovered the first time it is used in combat.')
+Unit.find_or_create_by(civilization_id: 16, name: 'Naga-Malla', replaces: 'Cuirassier', movement: '3', combat: '30', ranged_combat: '35', prerequisite_techs: 'Chemistry', description: 'Mounted ranged unit effective on flat ground. No city attack penalty. No horse requirement. Available earlier than Cuirassier. Feared Elephant promotion.')
+Unit.find_or_create_by(civilization_id: 17, name: 'Khan', replaces: 'Great General', movement: '5', description: 'Enhanced Medic & can construct citadels.')
+Unit.find_or_create_by(civilization_id: 18, name: 'Carolean', replaces: 'Tercio', movement: '2', combat: '27', prerequisite_techs: 'Gunpowder', description: 'Strong, front-line unit that specializes in long marches.')
+Unit.find_or_create_by(civilization_id: 19, name: 'Mehal Sefari', replaces: 'Fusilier', movement: '2', combat: '40', prerequisite_techs: 'Rifling', description: 'Strong, front-line unit specializes in friendly territory fighting especially by Capital. Starts with Cover I.')
+Unit.find_or_create_by(civilization_id: 20, name: 'Berserker', replaces: 'Longswordsman', movement: '3', combat: '20', requirements: '-1 Iron', prerequisite_techs: 'Metal Casting', description: 'Charge I. Amphibious. Strong front-line unit specializes in attacks from the sea. Available earlier than Longswordsman.')
+Unit.find_or_create_by(civilization_id: 21, name: 'Camel Archer', replaces: 'Heavy Skirmisher', movement: '4', combat: '20', ranged_combat: '22', requirements: '-1 Horse', prerequisite_techs: 'Physics', description: 'Penalty attacking cities, can move after attack, weak to Pikeman, stronger than replacement.')
+Unit.find_or_create_by(civilization_id: 22, name: 'Mohawk Warrior', replaces: 'Swordsman', movement: '2', combat: '16', prerequisite_techs: 'Iron Working', description: 'Combat bonus fighting in Forest/Jungle(33).')
+Unit.find_or_create_by(civilization_id: 23, name: 'Conquistador', replaces: 'Knight', movement: '4', combat: '25', requirements: '-1 Horse', prerequisite_techs: 'Chivarly', description: 'Extra Sight(2), embark with defense, can found overseas city, move after attacking, specializes in scouting and settling.')
+Unit.find_or_create_by(civilization_id: 24, name: 'Maori Warrior', replaces: 'Pikeman', movement: '2', combat: '18', prerequisite_techs: 'Metal Casting', description: 'Haka War Dance - nearby enemies less effective in combat. Available earlier than Pikeman.')
+Unit.find_or_create_by(civilization_id: 25, name: 'Nau', replaces: 'Caravel', movement: '4', combat: '25', prerequisite_techs: 'Compass', description: 'Extra Sight(1), can perform ability by City-States to earn Gold and XP. If possible, when a Nau sells its Exotic Cargo, a Feitoria is automatically built.')
+Unit.find_or_create_by(civilization_id: 26, name: 'Hussar', replaces: 'Cavalry', movement: '5', combat: '30', ranged_combat: '45', requirements: '-1 Horse', prerequisite_techs: 'Military Science', description: 'Extra Sight(1), Enhanced Flank Attack, penalized attacking cities. Used for hit-and-run.')
+Unit.find_or_create_by(civilization_id: 27, name: 'Jaguar', replaces: 'Warrior', movement: '2', combat: '8', description: 'Combat bonus in Forest/Jungle(33) & heals damage when it kills an enemy unit(25).')
+Unit.find_or_create_by(civilization_id: 28, name: 'Musketeer', replaces: 'Tercio', movement: '3', combat: '30', prerequisite_techs: 'Gunpowder', description: 'Higher Combat Strength than replacement. Specializes in lightning warefare.')
+Unit.find_or_create_by(civilization_id: 29, name: 'Bowman', replaces: 'Composite Bowman', movement: '2', combat: '10', ranged_combat: '12x2', prerequisite_techs: 'Engineering', description: 'Better at withstanding melee attacks. Starts with Indirect Fire promotion.')
+Unit.find_or_create_by(civilization_id: 30, name: 'Samurai', replaces: 'Longswordsman', movement: '2', combat: '24', requirements: '-1 Iron', prerequisite_techs: 'Steel', description: 'Gains more experience than normal, helps produce Great Generals more quickly than replacement.')
+Unit.find_or_create_by(civilization_id: 31, name: 'Atlatist', replaces: 'Composite Bowman', movement: '2', combat: '8', ranged_combat: '11x2', prerequisite_techs: 'Mathematics', description: 'Available sooner than Composite Bowman. Gains bonus damage from attacking wounded units.')
+Unit.find_or_create_by(civilization_id: 32, name: 'Slinger', replaces: 'Archer', movement: '2', combat: '4', ranged_combat: '4x2', prerequisite_techs: 'Trapping', description: 'Less powerful than Archer and more fragile to melee attacks.')
+Unit.find_or_create_by(civilization_id: 33, name: 'Pracinha', replaces: 'Infantry', movement: '2', combat: '50', prerequisite_techs: 'Flight', description: 'Points towards Golden Age when defeats an enemy. Starts with Survivalism I.')
+Unit.find_or_create_by(civilization_id: 34, name: 'Pathfinder', replaces: 'Scout', movement: '2', combat: '6', description: 'Excellent explorer and good at combat. Survivalism I,II & III, Shock I & II.')
+Unit.find_or_create_by(civilization_id: 35, name: 'War Chariot', replaces: 'Chariot Archer', movement: '5', combat: '8', ranged_combat: '8', prerequisite_techs: 'The Wheel', description: 'No horses required. Recieves Forced Labor promotion. Penalized for attacking cities.')
+Unit.find_or_create_by(civilization_id: 36, name: 'Naresuan\'s Elephant', replaces: 'Knight', movement: '3', combat: '27', requirements: '-1 Horse', prerequisite_techs: 'Chivarly', description: 'Weak to Pikeman, bonus against other mounted units, feared Elephant promotion. Penalized for attacking cities.')
+Unit.find_or_create_by(civilization_id: 37, name: 'Hwach\'a', replaces: 'Trebuchet', movement: '2', combat: '10', ranged_combat: '18x2', prerequisite_techs: 'Physics', description: 'Anti-personnel rocket of Medieval Era. Strong against land units but weak against cities. Cover I.')
+Unit.find_or_create_by(civilization_id: 38, name: 'Impi', replaces: 'Tercio', movement: '2', combat: '28', prerequisite_techs: 'Gunpowder', description: 'Specializes in defeating mounted units(50), and stronger overall than most units in this era. Performs first-strike ranged attack before combat with Spear Throw.')
+Unit.find_or_create_by(civilization_id: 39, name: 'Janissary', replaces: 'Musketman', movement: '2', combat: '20', ranged_combat: '33x2', prerequisite_techs: 'Gunpowder', description: 'Stronger than replacement.')
+Unit.find_or_create_by(civilization_id: 40, name: 'Cataphract', replaces: 'Horseman', movement: '3', combat: '20', requirements: '-1 Horse', prerequisite_techs: 'Military Theory', description: 'Weak to spearman. Higher combat strength, defense and city attacks than replacment.')
+Unit.find_or_create_by(civilization_id: 41, name: 'Minuteman', replaces: 'Musketman', movement: '2', combat: '20', ranged_combat: '30x2', prerequisite_techs: 'Metallurgy', description: 'Moves through rough ground as if it were flat. Accuracy I. Golden Age from Victories.')
+Unit.find_or_create_by(civilization_id: 42, name: 'Sea Beggar', replaces: 'Corvette', movement: '5', combat: '35', prerequisite_techs: 'Astronomy', description: 'Coastal Raider I & II. Specializes in attacking coastal cities. Available earlier than replacement.')
+Unit.find_or_create_by(civilization_id: 43, name: 'Chu-Ko-Nu', replaces: 'Crossbowman', movement: '2', combat: '13', ranged_combat: '15x2', prerequisite_techs: 'Machinery', description: 'Fires twice')
+
+
+
+Building.find_or_create_by(civilization_id: 1, name: 'Kasbah', output: '+2 Culture, Production, Gold, +1 Food, 30% Defense.', prerequisite_techs: 'Chivarly', built_on: 'Only adjacent to a city, desert, grassland, plains, desert, tundra, snow.', replaces: nil, maintenance: nil, other: nil)
+Building.find_or_create_by(civilization_id: 2, name: 'Acropolis', output: '+3 Culture, +4 Defense', prerequisite_techs: 'Drama and Poetry', replaces: 'Amphitheater', maintenance: '-1', other: 'Dyes & Silk +1 Culture & Gold, +2 Tourism with Philosophy, 1 Great Work of Writing slot, 33% Great Writer Rate in city.')
+Building.find_or_create_by(civilization_id: 3, name: 'Royal Library', output: '+3 Science, +50% Citizen/Science' maintenance: '-1 Gold', prerequisite_techs: 'Writing', other: '+1 Science for every 2 Citizens & all Libraries produce +2 Science. Every Great Work of Writing grants +5XP to units created in city (max of 45XP). +3 Production if themed.')
+Building.find_or_create_by(civilization_id: 4, name: 'Tabya', output: '+3 Production, +1 Culture to all River tiles near the city.', prerequisite_techs: 'Construction', maintenance: '-1', other: '+2P Stone Quarry, +1P & +1G Marble Quarry, +1P & +1G Salt Mine, +1P & +1G Jade Quarry.')
+Building.find_or_create_by(civilization_id: 5, name: 'Eki', output: '+1 Culture, +1 Production, +1 Food', prerequisite_techs: 'Trade', other: 'Built on flat Grassland or Plains.')
+Building.find_or_create_by(civilization_id: 6, name: 'Colosseum', output: '+3 Production, +3 Culture, +2 Tourism', maintenance: '-1 Gold', prerequisite_techs: 'Masonry', replaces: 'Arena', other: '+1G & +1F on Olives, +2C on Perfume, +5 Great General points & +5 Golden Age points whenever you destroy an enemy unit. City connections produce +2% more Gold. Reduces Boredom. Barracks, Forge & Armory +2 Production in city.')
+Building.find_or_create_by(civilization_id: 7, name: 'Hanse', output: '+2 Incoming & Outgoing Trade Routes, +2 Gold, +3 Culture' , maintenance: '-2 Gold', prerequisite_techs: 'Guilds', replaces: 'Customs House', other: 'City-State trade route production modifier 5%, when trade route originating here and targeting another Civ is completed, recieve Tourism boost.')
+Building.find_or_create_by(civilization_id: 8, name: 'Ceilidh Hall', output: '+3 Culture, +1 Faith, +1 Happiness', maintenance: '-1 Gold', prerequisite_techs: 'Physics', replaces: 'Circus', other: 'Reduces unhappiness (Boredom), and provides a modest sum of Culture when completed. +3 Culture for Ivory.')
+Building.find_or_create_by(civilization_id: 9, name: 'Ducal Stable', output: '+3 Production, +3 Production & +3 Gold for Horses, Sheep, & Cattle.', maintenance: '-2 Gold', prerequisite_techs: 'Chivarly', replaces: 'Stable', other: '+25% Production for Mounted Units. +15% XP for Mounted Units.')
+Building.find_or_create_by(civilization_id: 10, name: 'Ostrog', output: '+3 Production, +12 Defense', maintenance: '-1 Gold', prerequisite_techs: 'Rifling', replaces: 'Arsenal', other: '+1 Production to camps, mines & lumbermills. Decreases tile cost in the City by 25%. Enemy land units must expend 1 extra movement per tile if they move into a tile worked by this City. Plot Culture & Plot Buy Cost Modifier -25%.')
+Building.find_or_create_by(civilization_id: 11, name: 'Satrap\'s Court', output: '+1 Gold, +20% of Population added to Gold & Golden Age points, +1 Happiness.', prerequisite_techs: , replaces: 'Courthouse', other: '+1 Gold & +1 Golden Age Points per turn for every 5 Citizens in the City. Eliminates extra unhappiness from an Occupied City.')
+Building.find_or_create_by(civilization_id: 12, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 13, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 14, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 15, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 16, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 17, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 18, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 19, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 20, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 21, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 22, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 23, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 24, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 25, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 26, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 27, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 28, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 29, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 30, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 31, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 32, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 33, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 34, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 35, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 36, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 37, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 38, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 39, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 40, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 41, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 42, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
+Building.find_or_create_by(civilization_id: 43, name: , output: , maintenance: , prerequisite_techs: , replaces: , other: ,)
